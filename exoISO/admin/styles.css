@@ -1,0 +1,124 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+/*PARTIE INSERT*/
+.box
+{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+
+}
+
+.box h1
+{
+	color: white;
+	text-transform: uppercase;
+}
+
+.box input[type = "text"],.box input[type = "email"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "email"]:focus,.box input[type = "password"]:focus
+{
+ width: 280px;
+ border-color: #2ecc71;
+
+}
+.box input[type = "submit"]
+{
+ border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid  #2ecc71;
+  padding: 14px 40px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;	
+}
+.box input[type = "submit"]:hover
+{
+	background: #2ecc71;
+  
+}
+
+
+/*PARTIE INDEX*/
+
+.index
+{
+	width: 60%;
+	height: 100px;
+	background: white;
+	margin: 100px auto;
+}
+table tr td
+{
+   border: 1px solid black;
+}
+
+.header
+{
+  background: #2ecc71;
+  height: 40px;
+  text-align: center;
+  color: #34495e;
+}
+
+button
+{
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+}
+.button1
+{
+  background: blue;
+  border: 1px solid blue;
+  width: 100px;
+}
+.button2
+{
+  background: green;
+  border: 1px solid green;
+  width: 100px;
+}
+.button3
+{
+  background: red;
+  border: 1px solid red;
+  width: 100px;
+}
